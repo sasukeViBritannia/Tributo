@@ -1,0 +1,217 @@
+<!-- TODO:
+ -rifinitura -->
+
+
+<!DOCTYPE html>
+<html lang="it-IT">
+<head>
+	<title>Tributo ad Isaac Asimov</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width initial-scale=1.0" />
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+	<style type="text/css">
+		.container-fluid {
+			padding-top: 70px;
+			padding-bottom: 70px;
+		}
+		.bgcontenitore {
+			background-color: lightgrey;
+		}
+		.bgleggi {
+			background-color: black;
+			color: white;
+		}
+		.bgbiblio {
+			background-color: lightgrey;
+		}
+		.bgfooter {
+			background-color: black;
+			color: white;
+		}
+		#androidi {
+			width: 50%;
+			display: inline;
+		}
+		#tondino {
+			width: 15%;
+		}
+		#bio {
+			font-size: 20px;
+
+		}
+		.raccolte {
+			list-style-type: none;
+		}
+		.libri {
+			list-style-type: disc;
+		}
+		h2 {
+			text-align: center;
+		}	
+		@media screen and (max-width: 768px){
+			.col-md-4 {
+				text-align: center;
+			}
+			.libri, .raccolte {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+			}
+		}
+	</style>
+
+</head>
+<body>
+
+	<!-- Contenitore copertina -->
+
+	<div class="container-fluid bgcontenitore text-center">
+		<h1>ISAAC ASIMOV</h1>
+		<h2>L'uomo delle tre leggi</h2>
+		<img src="robots.jpg" alt="robots" id="androidi" class="img-responsive thumbnail" />
+	</div>
+
+	<!-- Contenitore CHI-->
+	<div class="container-fluid bgcontenitore">
+		<h2>Chi é?</h2>
+		<img src="asb&w.jpg" alt="asb&w" id="tondino" class="img-responsive img-circle pull-left" />
+		<p id="bio">Isaac Asimov é stato uno scrittore, conosciuto soprattutto per le sue opere di fantascienza ma ha scritto anche romanzi ed opere di divulgazione scientifica. Laureato in chimica ottiene anche un dottorato in biochimica che insieme al suo alto quoziente intellettivo (fu vicepresidente onorario del Mensa) gli consentono di partecipare al primo esperimento atomico del dopoguerra. &Egrave riconosciuto in tutto il mondo per la formulazione delle famose tre leggi della robotica, a cui altri autori ma anche esperti di cibernetica e robotica hanno preso ispirazione.</p>
+	</div>
+
+	<!-- Contenitore LEGGI -->
+	<div class="container-fluid bgleggi">
+		<h2>Le tre leggi della robotica</h2>
+		<div class="row">
+			<div class="col-md-4">
+				<h4 style="text-align: center;">I legge</h4>
+				<blockquote>
+					<p>Un robot non può recare danno a un essere umano, né può permettere che, a causa del suo mancato intervento, un essere umano riceva danno.</p>
+				</blockquote>
+			</div>
+			<div class="col-md-4">
+				<h4 style="text-align: center;">II legge</h4>
+				<blockquote>
+					<p>Un robot deve obbedire agli ordini impartiti dagli esseri umani, a meno che questi ordini non contrastino con la Prima Legge.</p>
+				</blockquote>
+			</div>
+			<div class="col-md-4">
+				<h4 style="text-align: center;">III legge</h4>
+				<blockquote>
+					<p>Un robot deve salvaguardare la propria esistenza, a meno che questa autodifesa non contrasti con la Prima o la Seconda Legge.</p>
+				</blockquote>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Legge ZERO</h2>
+				<blockquote>
+					<p>Un robot non può danneggiare l'Umanità, né può permettere che, a causa del suo mancato intervento, l'Umanità riceva danno.</p>
+				</blockquote>
+			</div>
+		</div>
+	</div>
+
+	<!-- Contenitore bibliografia-->
+	<div class="container-fluid bgbiblio">
+		<h2>Breve bibliografia</h2>
+		<div class="row">
+			<div class="col-md-4">
+				<h4><strong>Grande Universo della Fondazione</strong></h4>
+				<ul class="raccolte">
+					<li>
+						<h5><strong>Antologie dei Robot</strong></h5>
+						<ul class="libri">
+							<li>Io, Robot</li>
+							<li>Il secondo libro dei robot</li>
+							<li>...</li>
+						</ul>
+					</li>
+					<li>
+						<h5><strong>Ciclo dei Robot</strong></h5>
+						<ul class="libri">
+							<li>Abissi d'acciaio</li>
+							<li>Il sole nudo</li>
+							<li>...</li>
+						</ul>
+					</li>
+					<li>
+						<h5><strong>Ciclo dell'Impero</strong></h5>
+						<ul class="libri">
+							<li>Le correnti dello spazio</li>
+							<li>...</li>
+						</ul>
+					</li>
+					<li>
+						<h5><strong>Ciclo della fondazione</strong></h5>
+						<ul class="libri">
+							<li>Preludio della Fondazione</li>
+							<li>Fondazione</li>
+							<li>...</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-4">
+				<h4><strong>Fantascienza</strong></h4>
+				<ul class="raccolte">
+				<li>
+					<h5><strong>Romanzi</strong></h5>
+					<ul class="libri">
+						<li>Nemesis</li>
+						<li>Notturno</li>
+						<li>Neanche gli dei</li>
+						<li>La fine dell'eternità</li>
+						<li>Viaggio allucinante</li>
+						<li>...</li>
+					</ul>
+				</li>
+				<li>
+					<h5><strong>Antologie</strong></h5>
+					<ul class="libri">
+						<li>Maledetti marziani</li>
+						<li>Visioni di robot</li>
+						<li>Il vento è cambiato</li>
+						<li>Sogni di robot</li>
+						<li>La terra è abbastanza grande</li>
+						<li>...</li>
+					</ul>
+				</li>
+				</ul>
+			</div>
+			<div class="col-md-4">
+				<h4><strong>Gialli</strong></h4>
+				<ul class="raccolte"><h5><strong>Serie dei Vedovi Neri</strong></h5></ul>
+				<h4><strong>Libri per ragazzi</strong></h4>
+				<ul class="raccolte">
+					<li>
+						<h5><strong>Ciclo di Lucky Starr</strong></h5>
+					</li>
+					<li>
+						<h5><strong>Ciclo di Norby</strong></h5>
+					</li>
+				</ul>
+				<h4><strong>Divulgazione scientifica</strong></h4>
+				<ul class="libri">
+					<li>Supernove</li>
+					<li>Città extraterrestri</li>
+					<li>Il collasso dell'universo</li>
+					<li>Il mostro subatomico</li>
+					<li>Il cervello umano</li>
+					<li>Passato e futuro</li>
+					<li>...</li>
+				</ul>
+			</div>
+		</div>
+		<p style="font-size: 20px; text-align: center;">Se vuoi approfondire visita la pagina <a href="https://it.wikipedia.org/wiki/Isaac_Asimov" target="_blank">wikipedia</a>.</p>
+	</div>
+
+	<!-- footer -->
+	<footer class="container-fluid bgfooter text-center">
+		<p>Sito ideato e sviluppato da Me<sup>&copy</sup> per conto di FreeCodeCamp</p>
+	</footer>
+
+</body>
+</html>
