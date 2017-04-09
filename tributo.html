@@ -1,7 +1,3 @@
-<!-- TODO:
- -rifinitura -->
-
-
 <!DOCTYPE html>
 <html lang="it-IT">
 <head>
@@ -13,12 +9,10 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
 
 	<style type="text/css">
-		.container-fluid {
-			padding-top: 70px;
-			padding-bottom: 70px;
-		}
 		.bgcontenitore {
 			background-color: lightgrey;
+			padding-top: 20px;
+			padding-bottom: 70px;
 		}
 		.bgleggi {
 			background-color: black;
@@ -30,13 +24,15 @@
 		.bgfooter {
 			background-color: black;
 			color: white;
+			padding-top: 50px;
+			padding-bottom: 50px;
 		}
 		#androidi {
-			width: 50%;
+			width: 100%;
 			display: inline;
 		}
 		#tondino {
-			width: 15%;
+			width: 100%;
 		}
 		#bio {
 			font-size: 20px;
@@ -50,6 +46,7 @@
 		}
 		h2 {
 			text-align: center;
+			padding-bottom: 50px;
 		}	
 		@media screen and (max-width: 768px){
 			.col-md-4 {
@@ -72,13 +69,21 @@
 		<h1>ISAAC ASIMOV</h1>
 		<h2>L'uomo delle tre leggi</h2>
 		<img src="robots.jpg" alt="robots" id="androidi" class="img-responsive thumbnail" />
+		<div class="caption">
+			<p>Scena tratta dal film <cite>Io, Robot</cite> con Will Smith. Una delle tante opere cinematogrfiche ispirate dai lavori di Asimov.</p>
+		</div>
 	</div>
-
 	<!-- Contenitore CHI-->
 	<div class="container-fluid bgcontenitore">
 		<h2>Chi é?</h2>
-		<img src="asb&w.jpg" alt="asb&w" id="tondino" class="img-responsive img-circle pull-left" />
-		<p id="bio">Isaac Asimov é stato uno scrittore, conosciuto soprattutto per le sue opere di fantascienza ma ha scritto anche romanzi ed opere di divulgazione scientifica. Laureato in chimica ottiene anche un dottorato in biochimica che insieme al suo alto quoziente intellettivo (fu vicepresidente onorario del Mensa) gli consentono di partecipare al primo esperimento atomico del dopoguerra. &Egrave riconosciuto in tutto il mondo per la formulazione delle famose tre leggi della robotica, a cui altri autori ma anche esperti di cibernetica e robotica hanno preso ispirazione.</p>
+		<div class="row">
+			<div class="col-md-4 text-center">
+				<img src="asb&w.jpg" alt="asb&w" id="tondino" class="img-responsive" />
+			</div>
+			<div class="col-md-8">
+				<p id="bio">Isaac Asimov é stato uno scrittore, conosciuto soprattutto per le sue opere di fantascienza ma ha scritto anche romanzi ed opere di divulgazione scientifica. Laureato in chimica ottiene anche un dottorato in biochimica che insieme al suo alto quoziente intellettivo (fu vicepresidente onorario del Mensa) gli consentono di partecipare al primo esperimento atomico del dopoguerra. &Egrave riconosciuto in tutto il mondo per la formulazione delle famose tre leggi della robotica, a cui altri autori ma anche esperti di cibernetica e robotica hanno preso ispirazione.</p>
+			</div>
+		</div>
 	</div>
 
 	<!-- Contenitore LEGGI -->
